@@ -1,0 +1,33 @@
+body {
+  background-color: #232323;
+}
+
+.wrapper {
+  width: 1300px;
+  display: flex;
+  margin: 10% auto;
+}
+
+.box {
+  width: 33%;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 20px;
+  position: relative;
+}
+
+.img1 {
+  width: 100%;
+  transition: 0.4s;
+  position: absolute;
+  z-index: 2;
+}
+
+.img2 {
+  width: 100%;
+}
+
+.box:hover .img1 {
+  filter: blur(20px);
+  opacity: 0;
+}
