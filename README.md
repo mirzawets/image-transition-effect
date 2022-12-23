@@ -1,1 +1,2 @@
-# image-transition-effect
+## Final result
+https://mirzawets.github.io/image-transition-effect/
